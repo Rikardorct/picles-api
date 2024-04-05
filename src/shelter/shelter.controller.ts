@@ -17,9 +17,9 @@ export class ShelterController {
     return await this.getShelterDetailsUseCase.run(null)
     }
 
-@Patch()
-async updateShelterDetails(@Body() input:
-UpdateShelterControllerInput)
+    @Patch()
+    async updateShelterDetails(@Body() input:
+    UpdateShelterControllerInput)
     {
         console.log(input)
     }
